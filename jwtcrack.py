@@ -32,7 +32,6 @@ if __name__ == "__main__":
     parser.add_option("-a", "--algorithm", action="store", dest="algorithm", default='none',type="string",help="Input JWT algorithm default:NONE")
     parser.add_option("-p", "--key", action="store", dest="key", default='',type="string",help="Input your Verify key") 
     parser.add_option("--kf", "--key-file", action="store", dest="keyfile", type="string", default=False, help="Input your Verify Key File")
-    args = ["-m","generate","-s",{""}]
     (options, args) = parser.parse_args()
     if options.mode == "generate":
         print(generatejwt(options.jwtstring,options.key,options.algorithm))
