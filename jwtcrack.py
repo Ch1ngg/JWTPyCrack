@@ -30,7 +30,6 @@ if __name__ == "__main__":
     parser.add_option("-m", "--mode", action="store", dest="mode", default='',type="string",help="Mode has generate disable encryption and blasting encryption key [generate/blasting]")
     parser.add_option("-s", "--string", action="store", dest="jwtstring", default='',type="string",help="Input your JWT string")
     parser.add_option("-a", "--algorithm", action="store", dest="algorithm", default='none',type="string",help="Input JWT algorithm default:NONE")
-    parser.add_option("-p", "--key", action="store", dest="key", default='',type="string",help="Input your Verify key") 
     parser.add_option("--kf", "--key-file", action="store", dest="keyfile", type="string", default=False, help="Input your Verify Key File")
     (options, args) = parser.parse_args()
     if options.mode == "generate":
