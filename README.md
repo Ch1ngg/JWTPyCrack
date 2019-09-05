@@ -17,7 +17,14 @@
 ![](./PIC/Snipaste_2019-09-05_16-09-31.png)
 
 
-## 暴破弱密钥
+## 批量爆破弱密钥
 
 > python jwtcrack.py -m blasting -s eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.keH6T3x1z7mmhKL1T3r9sQdAxxdzB6siemGMr_6ZOwU --kf C:\Users\Ch1ng\Desktop\2.txt
+
 ![](./PIC/Snipaste_2019-09-05_16-07-58.png)
+
+# 感谢
+https://www.freebuf.com/vuls/211842.html
+
+#法律
+> 该项目仅供合法的渗透测试以及爱好者参考学习，请勿用于非法用途，否则自行承担相关责任！
