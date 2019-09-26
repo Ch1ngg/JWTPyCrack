@@ -33,7 +33,7 @@ if __name__ == "__main__":
     parser.add_option("--kf", "--key-file", action="store", dest="keyfile", type="string", default=False, help="Input your Verify Key File")
     (options, args) = parser.parse_args()
     if options.mode == "generate":
-        print(generatejwt(options.jwtstring,options.key,options.algorithm))
+        print(generatejwt(options.jwtstring,alg=options.algorithm))
         exit()
     if options.mode == "blasting":
         runblasting(options.keyfile,options.jwtstring,options.algorithm)
