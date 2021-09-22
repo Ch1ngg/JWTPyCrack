@@ -5,8 +5,12 @@
 
 # 环境
 > Python >= 3 
->
->pip install pyjwt
+
+卸载所有的jwt包
+> pip3 uninstall pyjwt pip3 uninstall jwt
+
+安装 jwt 包
+> pip3 install pyjwt==1.6.4 --user -i https://pypi.douban.com/simple
 
 # 使用
 
